@@ -5,6 +5,9 @@ data/depth_frames/
 data/depth_colorized/
 data/dummy/
 
+# Virtual environment
+venv/
+
 # API keys
 .env
 secrets.py
