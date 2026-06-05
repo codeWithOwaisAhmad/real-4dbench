@@ -1,0 +1,45 @@
+{
+  "dataset_name": "real-4dbench",
+  "description": "Real physical occlusion benchmark using Intel RealSense D435i",
+  "created_at": "2026-06-06T01:28:35.665664",
+  "total_clips": 1,
+  "clips": [
+    {
+      "clip_id": "clip_001",
+      "filename": "clip_001.bag",
+      "object_type": "ball",
+      "occluder_type": "cardboard_box",
+      "scenario_type": "full_occlusion",
+      "occlusion_start_sec": 2.5,
+      "occlusion_end_sec": 6.0,
+      "depth_shows_object_during_occlusion": true,
+      "recorded_at": "2026-06-06T01:28:35.665664",
+      "qa_pairs": [
+        {
+          "question_id": "clip_001_q1",
+          "question_type": "tracking",
+          "question": "Where is the ball at the end of this clip?",
+          "options": {
+            "A": "Fully visible in front of the cardboard box",
+            "B": "Hidden behind the cardboard box",
+            "C": "Partially visible behind the cardboard box",
+            "D": "Removed from the scene"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question_id": "clip_001_q2",
+          "question_type": "state",
+          "question": "At second 4 in this clip, can you see the ball?",
+          "options": {
+            "A": "Yes, fully visible",
+            "B": "Yes, partially visible",
+            "C": "No, it is completely hidden",
+            "D": "It has already left the frame"
+          },
+          "correct_answer": "C"
+        }
+      ]
+    }
+  ]
+}
