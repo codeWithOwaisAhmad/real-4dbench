@@ -1,0 +1,24 @@
+# Raw data - never push to GitHub
+data/raw_bags/
+data/rgb_frames/
+data/depth_frames/
+data/depth_colorized/
+data/dummy/
+
+# API keys
+.env
+secrets.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# Results - too large
+results/raw_outputs/
+
+# Models
+models/ 
