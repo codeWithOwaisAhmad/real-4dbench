@@ -1,0 +1,5 @@
+model,condition,total_questions,correct,accuracy,ci_lower,ci_upper,ci_string
+gemini-2.0-flash,rgb,77,54,70.1,59.2,79.2,"[59.2%, 79.2%]"
+gemini-2.0-flash,rgb_depth,75,49,65.3,54.1,75.1,"[54.1%, 75.1%]"
+gpt-4o,rgb,75,54,72.0,61.0,80.9,"[61.0%, 80.9%]"
+gpt-4o,rgb_depth,75,62,82.7,72.6,89.6,"[72.6%, 89.6%]"

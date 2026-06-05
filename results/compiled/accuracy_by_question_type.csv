@@ -1,0 +1,13 @@
+model,condition,question_type,total_questions,correct,accuracy,ci_lower,ci_upper
+gemini-2.0-flash,rgb,event,25,20,80.0,60.9,91.1
+gemini-2.0-flash,rgb,state,26,15,57.7,38.9,74.5
+gemini-2.0-flash,rgb,tracking,26,19,73.1,53.9,86.3
+gemini-2.0-flash,rgb_depth,event,25,17,68.0,48.4,82.8
+gemini-2.0-flash,rgb_depth,state,25,14,56.0,37.1,73.3
+gemini-2.0-flash,rgb_depth,tracking,25,18,72.0,52.4,85.7
+gpt-4o,rgb,event,25,16,64.0,44.5,79.8
+gpt-4o,rgb,state,25,17,68.0,48.4,82.8
+gpt-4o,rgb,tracking,25,21,84.0,65.3,93.6
+gpt-4o,rgb_depth,event,25,19,76.0,56.6,88.5
+gpt-4o,rgb_depth,state,25,20,80.0,60.9,91.1
+gpt-4o,rgb_depth,tracking,25,23,92.0,75.0,97.8
