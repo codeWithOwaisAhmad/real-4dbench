@@ -52,7 +52,7 @@ def colorize_depth_folder(depth_dir, output_dir):
     return True
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     import argparse
     parser = argparse.ArgumentParser(description="Colorize depth frames")
     parser.add_argument("--depth_dir", required=True, help="Directory containing raw depth .png files")
