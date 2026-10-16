@@ -1,27 +1,19 @@
-# Raw data - never push to GitHub
-data/raw_bags/
-data/rgb_frames/
-data/depth_frames/
-data/depth_colorized/
-data/dummy/
-
-# Virtual environment
-venv/
-
-# API keys
+# Environment & Secrets
+venv*/
 .env
-secrets.py
-
-# Python cache
 __pycache__/
 *.pyc
-*.pyo
 
-# VS Code
-.vscode/
+# Heavy Data & Sensor Recordings (Never push to GitHub)
+bag_files/
+verify_frames/
+*.db3
+*.bag
+*.mcap
 
-# Results - too large
-results/raw_outputs/
+# Checkpoints (Only keep final _results.csv in git)
+results/*_checkpoint.csv
 
-# Models
-models/ 
+# System / OS
+.DS_Store
+*.swp
