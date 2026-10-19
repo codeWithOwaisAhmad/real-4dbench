@@ -17,3 +17,4 @@ results/*_checkpoint.csv
 # System / OS
 .DS_Store
 *.swp
+real_4dbench_v2.tar.gz

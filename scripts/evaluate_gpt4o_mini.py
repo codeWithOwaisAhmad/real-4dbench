@@ -17,17 +17,17 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 MODEL_NAME = "gpt-4o-mini"
-MAX_FRAMES = 10
+MAX_FRAMES = 8  # Matched to Qwen and Video-LLaVA
 DETAIL_LEVEL = "low"
 
-DATASET_JSON = "benchmark_qa_297.json"
+DATASET_JSON = "benchmark_qa_297_v2.json"
 FRAMES_BASE_DIR = "verify_frames"
 OUTPUT_DIR = "results"
 
 
 def encode_image(image_path):
     with Image.open(image_path) as image:
-        rgb_image = image.convert("RGB")
+        rgb_image = image.convert("RGB").resize((448, 448))
         buffer = BytesIO()
         rgb_image.save(buffer, format="JPEG", quality=85)
         return base64.b64encode(buffer.getvalue()).decode("utf-8")
@@ -55,7 +55,7 @@ def run_evaluation(condition="rgb"):
 
     checkpoint_path = os.path.join(
         OUTPUT_DIR,
-        f"gpt4o_mini_{condition}_checkpoint.csv"
+        f"gpt4o_mini_{condition}_v2_checkpoint.csv"
     )
     final_output_path = os.path.join(
         OUTPUT_DIR,
@@ -86,15 +86,20 @@ def run_evaluation(condition="rgb"):
             continue
 
         clip_id = item["clip_id"]
-        clip_dir = Path(FRAMES_BASE_DIR) / clip_id / condition
+        clip_dir = Path(FRAMES_BASE_DIR) / clip_id
 
-        frame_files = sorted(
-            list(clip_dir.glob("*.jpg")) + list(clip_dir.glob("*.png"))
-        )
+        # Robust frame search directly inside clip directory
+        frame_files = sorted(list(clip_dir.glob(f"*{condition}.jpg")))
+        if not frame_files:
+            # Fallback to subfolder if present
+            sub_dir = clip_dir / condition
+            frame_files = sorted(list(sub_dir.glob("*.jpg")) + list(sub_dir.glob("*.png")))
+
         sampled_frames = sample_frames(frame_files, max_frames=MAX_FRAMES)
+        if not sampled_frames:
+            continue
 
         content = []
-
         for frame_path in sampled_frames:
             encoded_image = encode_image(frame_path)
             content.append({
@@ -105,10 +110,19 @@ def run_evaluation(condition="rgb"):
                 }
             })
 
+        if condition == "rgb":
+            modality_context = "You are watching a sequence of video frames showing a physical occlusion event on a table."
+        else:
+            modality_context = (
+                "You are watching a sequence of video frames showing a physical occlusion event on a table. "
+                "The frames are metric depth maps where warm colors are closer and cool colors are farther away."
+            )
+
         user_prompt = (
-            f"Chronological video sequence from clip: {clip_id}.\n\n"
+            f"{modality_context}\n\n"
             f"Question: {item['question']}\n\n"
-            "Respond strictly with the single option letter (A, B, C, or D)."
+            "Answer with ONLY the letter A, B, C, or D. Nothing else.\n"
+            "Your answer:"
         )
         content.append({"type": "text", "text": user_prompt})
 
@@ -118,10 +132,7 @@ def run_evaluation(condition="rgb"):
                 messages=[
                     {
                         "role": "system",
-                        "content": (
-                            "You are an objective spatial reasoning evaluator. "
-                            "Return only the option letter."
-                        )
+                        "content": "You are an objective spatial and kinematic reasoning evaluator. Return only the option letter."
                     },
                     {
                         "role": "user",
@@ -139,7 +150,7 @@ def run_evaluation(condition="rgb"):
             raw_text = f"ERROR: {str(error)}"
             prediction = "FAIL"
 
-        ground_truth = item["ground_truth"].strip().upper()
+        ground_truth = item.get("ground_truth", item.get("answer", "")).strip().upper()
 
         record = {
             "clip_id": clip_id,

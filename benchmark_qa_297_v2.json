@@ -18,8 +18,8 @@
     "scenario": "full_occlusion",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "At second 5, what is the physical visibility state of the tennis_ball?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Fully occluded and completely hidden behind the shoebox\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 5, what is the physical visibility state of the tennis_ball?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_001_Q3_event",
@@ -51,8 +51,8 @@
     "scenario": "full_occlusion",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "At second 4, what is the physical visibility state of the tennis_ball?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Fully occluded and completely hidden behind the shoebox\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 4, what is the physical visibility state of the tennis_ball?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_002_Q3_event",
@@ -73,8 +73,8 @@
     "scenario": "full_occlusion",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "Where is the tennis_ball located at the end of the video sequence?\n(A) Fully visible on the left side of the shoebox\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the tennis_ball located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Fully visible on the left side of the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_003_Q2_state",
@@ -128,8 +128,8 @@
     "scenario": "full_occlusion",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 7, what kinematic event occurs to the tennis_ball?\n(A) Moves continuously from right to left behind the shoebox to the opposite side of the table\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the shoebox without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 7, what kinematic event occurs to the tennis_ball?\n(A) Disappears behind the shoebox without emerging\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from right to left behind the shoebox to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_005_Q1_tracking",
@@ -161,8 +161,8 @@
     "scenario": "full_occlusion",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 6, what kinematic event occurs to the apple?\n(A) Moves continuously from left to right behind the shoebox to the opposite side of the table\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the shoebox without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 6, what kinematic event occurs to the apple?\n(A) Disappears behind the shoebox without emerging\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from left to right behind the shoebox to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_006_Q1_tracking",
@@ -194,8 +194,8 @@
     "scenario": "full_occlusion",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 7, what kinematic event occurs to the apple?\n(A) Moves continuously from left to right behind the shoebox to the opposite side of the table\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the shoebox without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 7, what kinematic event occurs to the apple?\n(A) Disappears behind the shoebox without emerging\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from left to right behind the shoebox to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_007_Q1_tracking",
@@ -238,8 +238,8 @@
     "scenario": "full_occlusion",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "Where is the apple located at the end of the video sequence?\n(A) Fully visible on the left side of the shoebox\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the apple located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Fully visible on the left side of the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_008_Q2_state",
@@ -249,8 +249,8 @@
     "scenario": "full_occlusion",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "At second 4, what is the physical visibility state of the apple?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Fully occluded and completely hidden behind the shoebox\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 4, what is the physical visibility state of the apple?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_008_Q3_event",
@@ -315,8 +315,8 @@
     "scenario": "full_occlusion",
     "target_object": "computer_mouse",
     "actor_artifact_free": false,
-    "question": "At second 5, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Fully occluded and completely hidden behind the shoebox\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 5, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_010_Q3_event",
@@ -337,8 +337,8 @@
     "scenario": "full_occlusion",
     "target_object": "computer_mouse",
     "actor_artifact_free": false,
-    "question": "Where is the computer_mouse located at the end of the video sequence?\n(A) Fully visible on the left side of the shoebox\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the computer_mouse located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Fully visible on the left side of the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_011_Q2_state",
@@ -381,8 +381,8 @@
     "scenario": "full_occlusion",
     "target_object": "computer_mouse",
     "actor_artifact_free": false,
-    "question": "At second 5, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Fully occluded and completely hidden behind the shoebox\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 5, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_012_Q3_event",
@@ -458,8 +458,8 @@
     "scenario": "full_occlusion",
     "target_object": "green_stapler",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 7, what kinematic event occurs to the green_stapler?\n(A) Moves continuously from left to right behind the shoebox to the opposite side of the table\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the shoebox without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 7, what kinematic event occurs to the green_stapler?\n(A) Disappears behind the shoebox without emerging\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from left to right behind the shoebox to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_015_Q1_tracking",
@@ -546,8 +546,8 @@
     "scenario": "full_occlusion",
     "target_object": "striped_cup",
     "actor_artifact_free": true,
-    "question": "At second 5, what is the physical visibility state of the striped_cup?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Fully occluded and completely hidden behind the shoebox\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 5, what is the physical visibility state of the striped_cup?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_017_Q3_event",
@@ -590,8 +590,8 @@
     "scenario": "full_occlusion",
     "target_object": "striped_cup",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 8, what kinematic event occurs to the striped_cup?\n(A) Moves continuously from left to right behind the shoebox to the opposite side of the table\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the shoebox without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 8, what kinematic event occurs to the striped_cup?\n(A) Disappears behind the shoebox without emerging\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from left to right behind the shoebox to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_019_Q1_tracking",
@@ -634,8 +634,8 @@
     "scenario": "full_occlusion",
     "target_object": "striped_cup",
     "actor_artifact_free": true,
-    "question": "Where is the striped_cup located at the end of the video sequence?\n(A) Fully visible on the left side of the shoebox\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the striped_cup located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Fully visible on the left side of the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_020_Q2_state",
@@ -645,8 +645,8 @@
     "scenario": "full_occlusion",
     "target_object": "striped_cup",
     "actor_artifact_free": true,
-    "question": "At second 4, what is the physical visibility state of the striped_cup?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Fully occluded and completely hidden behind the shoebox\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 4, what is the physical visibility state of the striped_cup?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_020_Q3_event",
@@ -667,8 +667,8 @@
     "scenario": "trajectory_reversal",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "Where is the tennis_ball located at the end of the video sequence?\n(A) Fully visible on the left side of the shoebox\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the tennis_ball located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Fully visible on the left side of the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_021_Q2_state",
@@ -700,8 +700,8 @@
     "scenario": "trajectory_reversal",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "Where is the tennis_ball located at the end of the video sequence?\n(A) Fully visible on the left side of the shoebox\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the tennis_ball located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Fully visible on the left side of the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_022_Q2_state",
@@ -711,8 +711,8 @@
     "scenario": "trajectory_reversal",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "At second 5, what is the physical visibility state of the tennis_ball?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Fully occluded and completely hidden behind the shoebox\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 5, what is the physical visibility state of the tennis_ball?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_022_Q3_event",
@@ -766,8 +766,8 @@
     "scenario": "trajectory_reversal",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "Where is the tennis_ball located at the end of the video sequence?\n(A) Fully visible on the left side of the shoebox\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the tennis_ball located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Fully visible on the left side of the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_024_Q2_state",
@@ -876,8 +876,8 @@
     "scenario": "trajectory_reversal",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "At second 4, what is the physical visibility state of the apple?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Fully occluded and completely hidden behind the cereal_box\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 4, what is the physical visibility state of the apple?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the cereal_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_027_Q3_event",
@@ -909,8 +909,8 @@
     "scenario": "trajectory_reversal",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "At second 7, what is the physical visibility state of the apple?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Fully occluded and completely hidden behind the cereal_box\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 7, what is the physical visibility state of the apple?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the cereal_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_028_Q3_event",
@@ -942,8 +942,8 @@
     "scenario": "trajectory_reversal",
     "target_object": "computer_mouse",
     "actor_artifact_free": false,
-    "question": "At second 5, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Fully occluded and completely hidden behind the cereal_box\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 5, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the cereal_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_029_Q3_event",
@@ -964,8 +964,8 @@
     "scenario": "trajectory_reversal",
     "target_object": "computer_mouse",
     "actor_artifact_free": false,
-    "question": "Where is the computer_mouse located at the end of the video sequence?\n(A) Fully visible on the left side of the cereal_box\n(B) Fully visible on the right side of the cereal_box\n(C) Completely hidden behind the cereal_box\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the computer_mouse located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the cereal_box\n(C) Completely hidden behind the cereal_box\n(D) Fully visible on the left side of the cereal_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_030_Q2_state",
@@ -1008,8 +1008,8 @@
     "scenario": "trajectory_reversal",
     "target_object": "computer_mouse",
     "actor_artifact_free": false,
-    "question": "At second 6, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Fully occluded and completely hidden behind the cereal_box\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 6, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the cereal_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_031_Q3_event",
@@ -1041,8 +1041,8 @@
     "scenario": "trajectory_reversal",
     "target_object": "computer_mouse",
     "actor_artifact_free": false,
-    "question": "At second 5, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Fully occluded and completely hidden behind the cereal_box\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 5, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the cereal_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_032_Q3_event",
@@ -1074,8 +1074,8 @@
     "scenario": "trajectory_reversal",
     "target_object": "green_stapler",
     "actor_artifact_free": true,
-    "question": "At second 5, what is the physical visibility state of the green_stapler?\n(A) Fully visible in front of or beside the tissue_box\n(B) Partially occluded, with its upper section visible above the tissue_box\n(C) Fully occluded and completely hidden behind the tissue_box\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 5, what is the physical visibility state of the green_stapler?\n(A) Fully visible in front of or beside the tissue_box\n(B) Partially occluded, with its upper section visible above the tissue_box\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the tissue_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_033_Q3_event",
@@ -1096,8 +1096,8 @@
     "scenario": "trajectory_reversal",
     "target_object": "green_stapler",
     "actor_artifact_free": true,
-    "question": "Where is the green_stapler located at the end of the video sequence?\n(A) Fully visible on the left side of the tissue_box\n(B) Fully visible on the right side of the tissue_box\n(C) Completely hidden behind the tissue_box\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the green_stapler located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the tissue_box\n(C) Completely hidden behind the tissue_box\n(D) Fully visible on the left side of the tissue_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_034_Q2_state",
@@ -1195,8 +1195,8 @@
     "scenario": "trajectory_reversal",
     "target_object": "striped_cup",
     "actor_artifact_free": true,
-    "question": "Where is the striped_cup located at the end of the video sequence?\n(A) Fully visible on the left side of the book\n(B) Fully visible on the right side of the book\n(C) Completely hidden behind the book\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the striped_cup located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the book\n(C) Completely hidden behind the book\n(D) Fully visible on the left side of the book",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_037_Q2_state",
@@ -1305,8 +1305,8 @@
     "scenario": "trajectory_reversal",
     "target_object": "striped_cup",
     "actor_artifact_free": true,
-    "question": "At second 3, what is the physical visibility state of the striped_cup?\n(A) Fully visible in front of or beside the book\n(B) Partially occluded, with its upper section visible above the book\n(C) Fully occluded and completely hidden behind the book\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 3, what is the physical visibility state of the striped_cup?\n(A) Fully visible in front of or beside the book\n(B) Partially occluded, with its upper section visible above the book\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the book",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_040_Q3_event",
@@ -1382,8 +1382,8 @@
     "scenario": "velocity_variation",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 13, what kinematic event occurs to the tennis_ball?\n(A) Moves continuously from left to right behind the shoebox to the opposite side of the table\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the shoebox without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 13, what kinematic event occurs to the tennis_ball?\n(A) Disappears behind the shoebox without emerging\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from left to right behind the shoebox to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_043_Q1_tracking",
@@ -1393,8 +1393,8 @@
     "scenario": "velocity_variation",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "Where is the tennis_ball located at the end of the video sequence?\n(A) Fully visible on the left side of the shoebox\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the tennis_ball located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Fully visible on the left side of the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_043_Q2_state",
@@ -1415,8 +1415,8 @@
     "scenario": "velocity_variation",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 6, what kinematic event occurs to the tennis_ball?\n(A) Moves continuously from right to left behind the shoebox to the opposite side of the table\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the shoebox without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 6, what kinematic event occurs to the tennis_ball?\n(A) Disappears behind the shoebox without emerging\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from right to left behind the shoebox to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_044_Q1_tracking",
@@ -1481,8 +1481,8 @@
     "scenario": "velocity_variation",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 13, what kinematic event occurs to the apple?\n(A) Moves continuously from left to right behind the shoebox to the opposite side of the table\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the shoebox without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 13, what kinematic event occurs to the apple?\n(A) Disappears behind the shoebox without emerging\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from left to right behind the shoebox to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_046_Q1_tracking",
@@ -1514,8 +1514,8 @@
     "scenario": "velocity_variation",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 7, what kinematic event occurs to the apple?\n(A) Moves continuously from left to right behind the shoebox to the opposite side of the table\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the shoebox without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 7, what kinematic event occurs to the apple?\n(A) Disappears behind the shoebox without emerging\n(B) Reverses trajectory behind the shoebox and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from left to right behind the shoebox to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_047_Q1_tracking",
@@ -1525,8 +1525,8 @@
     "scenario": "velocity_variation",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "Where is the apple located at the end of the video sequence?\n(A) Fully visible on the left side of the shoebox\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the apple located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Fully visible on the left side of the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_047_Q2_state",
@@ -1558,8 +1558,8 @@
     "scenario": "velocity_variation",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "Where is the apple located at the end of the video sequence?\n(A) Fully visible on the left side of the shoebox\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the apple located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Fully visible on the left side of the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_048_Q2_state",
@@ -1569,8 +1569,8 @@
     "scenario": "velocity_variation",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "At second 2, what is the physical visibility state of the apple?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Fully occluded and completely hidden behind the shoebox\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 2, what is the physical visibility state of the apple?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_048_Q3_event",
@@ -1635,8 +1635,8 @@
     "scenario": "velocity_variation",
     "target_object": "computer_mouse",
     "actor_artifact_free": false,
-    "question": "At second 4, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the book\n(B) Partially occluded, with its upper section visible above the book\n(C) Fully occluded and completely hidden behind the book\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 4, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the book\n(B) Partially occluded, with its upper section visible above the book\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the book",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_050_Q3_event",
@@ -1657,8 +1657,8 @@
     "scenario": "velocity_variation",
     "target_object": "computer_mouse",
     "actor_artifact_free": false,
-    "question": "Where is the computer_mouse located at the end of the video sequence?\n(A) Fully visible on the left side of the book\n(B) Fully visible on the right side of the book\n(C) Completely hidden behind the book\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the computer_mouse located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the book\n(C) Completely hidden behind the book\n(D) Fully visible on the left side of the book",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_051_Q2_state",
@@ -1668,8 +1668,8 @@
     "scenario": "velocity_variation",
     "target_object": "computer_mouse",
     "actor_artifact_free": false,
-    "question": "At second 5, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the book\n(B) Partially occluded, with its upper section visible above the book\n(C) Fully occluded and completely hidden behind the book\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 5, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the book\n(B) Partially occluded, with its upper section visible above the book\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the book",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_051_Q3_event",
@@ -1679,8 +1679,8 @@
     "scenario": "velocity_variation",
     "target_object": "computer_mouse",
     "actor_artifact_free": false,
-    "question": "Between second 1 and second 9, what kinematic event occurs to the computer_mouse?\n(A) Moves continuously from right to left behind the book to the opposite side of the table\n(B) Reverses trajectory behind the book and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the book without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 9, what kinematic event occurs to the computer_mouse?\n(A) Disappears behind the book without emerging\n(B) Reverses trajectory behind the book and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from right to left behind the book to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_052_Q1_tracking",
@@ -1690,8 +1690,8 @@
     "scenario": "velocity_variation",
     "target_object": "computer_mouse",
     "actor_artifact_free": false,
-    "question": "Where is the computer_mouse located at the end of the video sequence?\n(A) Fully visible on the left side of the book\n(B) Fully visible on the right side of the book\n(C) Completely hidden behind the book\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the computer_mouse located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the book\n(C) Completely hidden behind the book\n(D) Fully visible on the left side of the book",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_052_Q2_state",
@@ -1701,8 +1701,8 @@
     "scenario": "velocity_variation",
     "target_object": "computer_mouse",
     "actor_artifact_free": false,
-    "question": "At second 3, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the book\n(B) Partially occluded, with its upper section visible above the book\n(C) Fully occluded and completely hidden behind the book\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 3, what is the physical visibility state of the computer_mouse?\n(A) Fully visible in front of or beside the book\n(B) Partially occluded, with its upper section visible above the book\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the book",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_052_Q3_event",
@@ -1800,8 +1800,8 @@
     "scenario": "velocity_variation",
     "target_object": "green_stapler",
     "actor_artifact_free": true,
-    "question": "At second 7, what is the physical visibility state of the green_stapler?\n(A) Fully visible in front of or beside the book\n(B) Partially occluded, with its upper section visible above the book\n(C) Fully occluded and completely hidden behind the book\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 7, what is the physical visibility state of the green_stapler?\n(A) Fully visible in front of or beside the book\n(B) Partially occluded, with its upper section visible above the book\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the book",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_055_Q3_event",
@@ -1866,8 +1866,8 @@
     "scenario": "velocity_variation",
     "target_object": "striped_cup",
     "actor_artifact_free": true,
-    "question": "At second 8, what is the physical visibility state of the striped_cup?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Fully occluded and completely hidden behind the cereal_box\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 8, what is the physical visibility state of the striped_cup?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the cereal_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_057_Q3_event",
@@ -1877,8 +1877,8 @@
     "scenario": "velocity_variation",
     "target_object": "striped_cup",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 14, what kinematic event occurs to the striped_cup?\n(A) Moves continuously from left to right behind the cereal_box to the opposite side of the table\n(B) Reverses trajectory behind the cereal_box and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the cereal_box without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 14, what kinematic event occurs to the striped_cup?\n(A) Disappears behind the cereal_box without emerging\n(B) Reverses trajectory behind the cereal_box and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from left to right behind the cereal_box to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_058_Q1_tracking",
@@ -1921,8 +1921,8 @@
     "scenario": "velocity_variation",
     "target_object": "striped_cup",
     "actor_artifact_free": true,
-    "question": "Where is the striped_cup located at the end of the video sequence?\n(A) Fully visible on the left side of the cereal_box\n(B) Fully visible on the right side of the cereal_box\n(C) Completely hidden behind the cereal_box\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the striped_cup located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the cereal_box\n(C) Completely hidden behind the cereal_box\n(D) Fully visible on the left side of the cereal_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_059_Q2_state",
@@ -2042,8 +2042,8 @@
     "scenario": "partial_occlusion",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 10, what kinematic event occurs to the tennis_ball?\n(A) Moves continuously from left to right behind the cereal_box to the opposite side of the table\n(B) Reverses trajectory behind the cereal_box and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the cereal_box without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 10, what kinematic event occurs to the tennis_ball?\n(A) Disappears behind the cereal_box without emerging\n(B) Reverses trajectory behind the cereal_box and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from left to right behind the cereal_box to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_063_Q1_tracking",
@@ -2053,8 +2053,8 @@
     "scenario": "partial_occlusion",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "Where is the tennis_ball located at the end of the video sequence?\n(A) Fully visible on the left side of the cereal_box\n(B) Fully visible on the right side of the cereal_box\n(C) Completely hidden behind the cereal_box\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the tennis_ball located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the cereal_box\n(C) Completely hidden behind the cereal_box\n(D) Fully visible on the left side of the cereal_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_063_Q2_state",
@@ -2141,8 +2141,8 @@
     "scenario": "partial_occlusion",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 8, what kinematic event occurs to the apple?\n(A) Moves continuously from left to right behind the cereal_box to the opposite side of the table\n(B) Reverses trajectory behind the cereal_box and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the cereal_box without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 8, what kinematic event occurs to the apple?\n(A) Disappears behind the cereal_box without emerging\n(B) Reverses trajectory behind the cereal_box and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from left to right behind the cereal_box to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_066_Q1_tracking",
@@ -2174,8 +2174,8 @@
     "scenario": "partial_occlusion",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 9, what kinematic event occurs to the apple?\n(A) Moves continuously from left to right behind the cereal_box to the opposite side of the table\n(B) Reverses trajectory behind the cereal_box and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the cereal_box without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 9, what kinematic event occurs to the apple?\n(A) Disappears behind the cereal_box without emerging\n(B) Reverses trajectory behind the cereal_box and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from left to right behind the cereal_box to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_067_Q1_tracking",
@@ -2185,8 +2185,8 @@
     "scenario": "partial_occlusion",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "Where is the apple located at the end of the video sequence?\n(A) Fully visible on the left side of the cereal_box\n(B) Fully visible on the right side of the cereal_box\n(C) Completely hidden behind the cereal_box\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the apple located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the cereal_box\n(C) Completely hidden behind the cereal_box\n(D) Fully visible on the left side of the cereal_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_067_Q2_state",
@@ -2317,8 +2317,8 @@
     "scenario": "partial_occlusion",
     "target_object": "striped_cup",
     "actor_artifact_free": true,
-    "question": "Where is the striped_cup located at the end of the video sequence?\n(A) Fully visible on the left side of the tissue_box\n(B) Fully visible on the right side of the tissue_box\n(C) Completely hidden behind the tissue_box\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the striped_cup located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the tissue_box\n(C) Completely hidden behind the tissue_box\n(D) Fully visible on the left side of the tissue_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_071_Q2_state",
@@ -2339,8 +2339,8 @@
     "scenario": "partial_occlusion",
     "target_object": "striped_cup",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 10, what kinematic event occurs to the striped_cup?\n(A) Moves continuously from right to left behind the tissue_box to the opposite side of the table\n(B) Reverses trajectory behind the tissue_box and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the tissue_box without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 10, what kinematic event occurs to the striped_cup?\n(A) Disappears behind the tissue_box without emerging\n(B) Reverses trajectory behind the tissue_box and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from right to left behind the tissue_box to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_072_Q1_tracking",
@@ -2405,8 +2405,8 @@
     "scenario": "partial_occlusion",
     "target_object": "green_stapler",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 8, what kinematic event occurs to the green_stapler?\n(A) Moves continuously from left to right behind the book to the opposite side of the table\n(B) Reverses trajectory behind the book and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the book without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 8, what kinematic event occurs to the green_stapler?\n(A) Disappears behind the book without emerging\n(B) Reverses trajectory behind the book and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from left to right behind the book to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_074_Q1_tracking",
@@ -2482,8 +2482,8 @@
     "scenario": "partial_occlusion",
     "target_object": "green_stapler",
     "actor_artifact_free": true,
-    "question": "Where is the green_stapler located at the end of the video sequence?\n(A) Fully visible on the left side of the book\n(B) Fully visible on the right side of the book\n(C) Completely hidden behind the book\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the green_stapler located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the book\n(C) Completely hidden behind the book\n(D) Fully visible on the left side of the book",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_076_Q2_state",
@@ -2504,8 +2504,8 @@
     "scenario": "partial_occlusion",
     "target_object": "green_stapler",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 8, what kinematic event occurs to the green_stapler?\n(A) Moves continuously from right to left behind the book to the opposite side of the table\n(B) Reverses trajectory behind the book and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the book without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 8, what kinematic event occurs to the green_stapler?\n(A) Disappears behind the book without emerging\n(B) Reverses trajectory behind the book and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from right to left behind the book to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_077_Q1_tracking",
@@ -2570,8 +2570,8 @@
     "scenario": "partial_occlusion",
     "target_object": "red_mug",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 7, what kinematic event occurs to the red_mug?\n(A) Moves continuously from left to right behind the tissue_box to the opposite side of the table\n(B) Reverses trajectory behind the tissue_box and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Disappears behind the tissue_box without emerging",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 7, what kinematic event occurs to the red_mug?\n(A) Disappears behind the tissue_box without emerging\n(B) Reverses trajectory behind the tissue_box and returns to the start side\n(C) Remains stationary at the starting mark\n(D) Moves continuously from left to right behind the tissue_box to the opposite side of the table",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_079_Q1_tracking",
@@ -2581,8 +2581,8 @@
     "scenario": "partial_occlusion",
     "target_object": "red_mug",
     "actor_artifact_free": true,
-    "question": "Where is the red_mug located at the end of the video sequence?\n(A) Fully visible on the left side of the tissue_box\n(B) Fully visible on the right side of the tissue_box\n(C) Completely hidden behind the tissue_box\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the red_mug located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the tissue_box\n(C) Completely hidden behind the tissue_box\n(D) Fully visible on the left side of the tissue_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_079_Q2_state",
@@ -2669,8 +2669,8 @@
     "scenario": "multi_object_interaction",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 10, what kinematic event occurs in the scene?\n(A) The tennis_ball travels from left to right behind the shoebox and comes to rest near the stationary object\n(B) The tennis_ball collides with the shoebox and bounces back\n(C) Both objects move simultaneously and cross paths behind the shoebox\n(D) The stationary object moves across the table while the tennis_ball remains fixed",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 10, what kinematic event occurs in the scene?\n(A) The stationary object moves across the table while the tennis_ball remains fixed\n(B) The tennis_ball collides with the shoebox and bounces back\n(C) Both objects move simultaneously and cross paths behind the shoebox\n(D) The tennis_ball travels from left to right behind the shoebox and comes to rest near the stationary object",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_082_Q1_tracking",
@@ -2713,8 +2713,8 @@
     "scenario": "multi_object_interaction",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "Where is the tennis_ball located at the end of the video sequence?\n(A) Fully visible on the left side of the shoebox\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the tennis_ball located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Fully visible on the left side of the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_083_Q2_state",
@@ -2735,8 +2735,8 @@
     "scenario": "multi_object_interaction",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 7, what kinematic event occurs in the scene?\n(A) The tennis_ball travels from right to left behind the shoebox and comes to rest near the stationary object\n(B) The tennis_ball collides with the shoebox and bounces back\n(C) Both objects move simultaneously and cross paths behind the shoebox\n(D) The stationary object moves across the table while the tennis_ball remains fixed",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 7, what kinematic event occurs in the scene?\n(A) The stationary object moves across the table while the tennis_ball remains fixed\n(B) The tennis_ball collides with the shoebox and bounces back\n(C) Both objects move simultaneously and cross paths behind the shoebox\n(D) The tennis_ball travels from right to left behind the shoebox and comes to rest near the stationary object",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_084_Q1_tracking",
@@ -2757,8 +2757,8 @@
     "scenario": "multi_object_interaction",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "At second 4, what is the physical visibility state of the tennis_ball?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Fully occluded and completely hidden behind the shoebox\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 4, what is the physical visibility state of the tennis_ball?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_084_Q3_event",
@@ -2768,8 +2768,8 @@
     "scenario": "multi_object_interaction",
     "target_object": "tennis_ball",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 7, what kinematic event occurs in the scene?\n(A) The tennis_ball travels from right to left behind the shoebox and comes to rest near the stationary object\n(B) The tennis_ball collides with the shoebox and bounces back\n(C) Both objects move simultaneously and cross paths behind the shoebox\n(D) The stationary object moves across the table while the tennis_ball remains fixed",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 7, what kinematic event occurs in the scene?\n(A) The stationary object moves across the table while the tennis_ball remains fixed\n(B) The tennis_ball collides with the shoebox and bounces back\n(C) Both objects move simultaneously and cross paths behind the shoebox\n(D) The tennis_ball travels from right to left behind the shoebox and comes to rest near the stationary object",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_085_Q1_tracking",
@@ -2790,8 +2790,8 @@
     "scenario": "multi_object_interaction",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "At second 5, what is the physical visibility state of the apple?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Fully occluded and completely hidden behind the shoebox\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 5, what is the physical visibility state of the apple?\n(A) Fully visible in front of or beside the shoebox\n(B) Partially occluded, with its upper section visible above the shoebox\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_085_Q3_event",
@@ -2801,8 +2801,8 @@
     "scenario": "multi_object_interaction",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 9, what kinematic event occurs in the scene?\n(A) The apple travels from left to right behind the shoebox and comes to rest near the stationary object\n(B) The apple collides with the shoebox and bounces back\n(C) Both objects move simultaneously and cross paths behind the shoebox\n(D) The stationary object moves across the table while the apple remains fixed",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 9, what kinematic event occurs in the scene?\n(A) The stationary object moves across the table while the apple remains fixed\n(B) The apple collides with the shoebox and bounces back\n(C) Both objects move simultaneously and cross paths behind the shoebox\n(D) The apple travels from left to right behind the shoebox and comes to rest near the stationary object",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_086_Q1_tracking",
@@ -2834,8 +2834,8 @@
     "scenario": "multi_object_interaction",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 10, what kinematic event occurs in the scene?\n(A) The apple travels from left to right behind the shoebox and comes to rest near the stationary object\n(B) The apple collides with the shoebox and bounces back\n(C) Both objects move simultaneously and cross paths behind the shoebox\n(D) The stationary object moves across the table while the apple remains fixed",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 10, what kinematic event occurs in the scene?\n(A) The stationary object moves across the table while the apple remains fixed\n(B) The apple collides with the shoebox and bounces back\n(C) Both objects move simultaneously and cross paths behind the shoebox\n(D) The apple travels from left to right behind the shoebox and comes to rest near the stationary object",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_087_Q1_tracking",
@@ -2845,8 +2845,8 @@
     "scenario": "multi_object_interaction",
     "target_object": "apple",
     "actor_artifact_free": true,
-    "question": "Where is the apple located at the end of the video sequence?\n(A) Fully visible on the left side of the shoebox\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the apple located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the shoebox\n(C) Completely hidden behind the shoebox\n(D) Fully visible on the left side of the shoebox",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_087_Q2_state",
@@ -2955,8 +2955,8 @@
     "scenario": "multi_object_interaction",
     "target_object": "striped_cup",
     "actor_artifact_free": true,
-    "question": "At second 5, what is the physical visibility state of the striped_cup?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Fully occluded and completely hidden behind the cereal_box\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 5, what is the physical visibility state of the striped_cup?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the cereal_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_090_Q3_event",
@@ -2977,8 +2977,8 @@
     "scenario": "multi_object_interaction",
     "target_object": "striped_cup",
     "actor_artifact_free": true,
-    "question": "Where is the striped_cup located at the end of the video sequence?\n(A) Fully visible on the left side of the cereal_box\n(B) Fully visible on the right side of the cereal_box\n(C) Completely hidden behind the cereal_box\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the striped_cup located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the cereal_box\n(C) Completely hidden behind the cereal_box\n(D) Fully visible on the left side of the cereal_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_091_Q2_state",
@@ -3054,8 +3054,8 @@
     "scenario": "multi_object_interaction",
     "target_object": "red_mug",
     "actor_artifact_free": true,
-    "question": "At second 6, what is the physical visibility state of the red_mug?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Fully occluded and completely hidden behind the cereal_box\n(D) Out of the camera frame",
-    "ground_truth": "C"
+    "question": "At second 6, what is the physical visibility state of the red_mug?\n(A) Fully visible in front of or beside the cereal_box\n(B) Partially occluded, with its upper section visible above the cereal_box\n(C) Out of the camera frame\n(D) Fully occluded and completely hidden behind the cereal_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_093_Q3_event",
@@ -3131,8 +3131,8 @@
     "scenario": "multi_object_interaction",
     "target_object": "red_mug",
     "actor_artifact_free": true,
-    "question": "Between second 1 and second 10, what kinematic event occurs in the scene?\n(A) The red_mug travels from right to left behind the cereal_box and comes to rest near the stationary object\n(B) The red_mug collides with the cereal_box and bounces back\n(C) Both objects move simultaneously and cross paths behind the cereal_box\n(D) The stationary object moves across the table while the red_mug remains fixed",
-    "ground_truth": "A"
+    "question": "Between second 1 and second 10, what kinematic event occurs in the scene?\n(A) The stationary object moves across the table while the red_mug remains fixed\n(B) The red_mug collides with the cereal_box and bounces back\n(C) Both objects move simultaneously and cross paths behind the cereal_box\n(D) The red_mug travels from right to left behind the cereal_box and comes to rest near the stationary object",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_096_Q1_tracking",
@@ -3142,8 +3142,8 @@
     "scenario": "multi_object_interaction",
     "target_object": "red_mug",
     "actor_artifact_free": true,
-    "question": "Where is the red_mug located at the end of the video sequence?\n(A) Fully visible on the left side of the cereal_box\n(B) Fully visible on the right side of the cereal_box\n(C) Completely hidden behind the cereal_box\n(D) Removed from the table entirely",
-    "ground_truth": "A"
+    "question": "Where is the red_mug located at the end of the video sequence?\n(A) Removed from the table entirely\n(B) Fully visible on the right side of the cereal_box\n(C) Completely hidden behind the cereal_box\n(D) Fully visible on the left side of the cereal_box",
+    "ground_truth": "D"
   },
   {
     "question_id": "clip_096_Q2_state",
